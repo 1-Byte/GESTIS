@@ -106,7 +106,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 002150,Cadmiumsulfid,Gefahr,"H302,H341,H350,H361,H372,H410",,"P201,P273,P301+P312+P330,P308+P313,P501","GHS08,GHS07,GHS09"
 002160,Zinkchromat,Gefahr,"H350,H302,H317,H410",,"P261,P280,P281,P363,P405,P501","GHS08,GHS07,GHS09"
 002170,Antimon(V)-sulfid,Gefahr,"H228,H302,H332,H411",,"P210,P273","GHS02,GHS07,GHS09"
-002190,Eisen(II)-sulfid,Achtung,H400,EUH031,P273,GHS09
+002190,Eisen(II)-sulfid,,,EUH031,,
 002200,Kaliumchlorid,,,,,
 002220,Titanylsulfat,Gefahr,H314,,"P280,P303+P361+P353,P305+P351+P338,P310",GHS05
 002240,Dihydraziniumsulfat,Gefahr,"H301,H311,H331,H317,H350,H410",,"P201,P261,P273,P280,P301+P310,P311","GHS06,GHS08,GHS09"
@@ -1145,7 +1145,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 020290,Propylbenzol,Gefahr,"H226,H304,H335,H411",,"P261,P273,P301+P310,P331","GHS02,GHS08,GHS07,GHS09"
 020300,Butylbenzol,Achtung,H226,,P210,GHS02
 020330,Butylbenzoat,Achtung,"H302,H315,H319",,"P302+P352,P305+P351+P338",GHS07
-020340,2-Ethyl-1-hexanol,Achtung,"H315,H319,H332,H335",,"P261,P305+P351+P338",GHS07
+020340,2-Ethylhexanol,Achtung,"H315,H319,H332,H335",,"P261,P305+P351+P338",GHS07
 020360,Benzamid,Achtung,"H302,H341",,"P281,P308+P313","GHS07,GHS08"
 020370,Benzylalkohol,Achtung,"H332,H302,H319",,"P261,P301+P312+P330,P305+P351+P338,P305+P351+P338",GHS07
 020380,2-Chloracetamid,Gefahr,"H361f,H301,H317",,"P281,P302+P352,P309+P310,P405,P501","GHS06,GHS08"
@@ -1282,7 +1282,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 023010,3-Methoxybutylacetat,,,,,
 023020,Trimethylamin,Gefahr,"H220,H280,H302+H332,H315,H318,H335",,"P210,P261,P280,P305+P351+P338,P410+P403","GHS02,GHS04,GHS05,GHS07"
 023030,Natriumchloracetat,Gefahr,"H301,H315,H400",,"P273,P301+P310","GHS06,GHS09"
-023050,Methyllaurat,Achtung,"H400,H411",,,GHS09
+023050,Methyllaurat,Achtung,"H400,H411",,P273,GHS09
 023060,"2,6-Dibrom-4-nitroanilin",Achtung,H302+H312+H332,,"P261,P280,P301+P312+P330",GHS07
 023070,alpha-Chlortoluol,Gefahr,"H302,H330,H315,H318,H335,H350,H373",,"P260,P284,P305+P351+P338,P320,P405,P501","GHS06,GHS05,GHS08"
 023080,(Chlormethyl)methylether,Gefahr,"H225,H302+H312+H332,H319,H350",,"P201,P210,P280,P305+P351+P338,P308+P313","GHS02,GHS08,GHS07"
@@ -1407,7 +1407,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 025370,3-Nitrobenzoesäure,Achtung,"H302,H315,H319,H335,H412",,"P261,P273,P305+P351+P338",GHS07
 025380,4-Nitrobenzoesäure,Achtung,"H302,H319",,"P301+P330+P331,P312,P264,P280,P337+P313",GHS07
 025390,3-Nitrobenzoylchlorid,Gefahr,"H312,H314",,"P280,P301+P330+P331,P302+P352,P305+P351+P338,P310","GHS05,GHS07"
-025400,Tetrahydrofuran,Gefahr,"H225,H302,H319,H335,H351",EUH019,"P210,P233,P280,P370+P378,P501","GHS07,GHS02,GHS08"
+025400,Tetrahydrofuran,Gefahr,"H225,H302,H319,H335,H351",EUH019,"P210,P233,P280,P370+P378,P501","GHS02,GHS07,GHS08"
 025420,Dichloracetylchlorid,Gefahr,"H314,H400",,"P280,P312,P302+P350,P301+P330+P331,P305+P351+P338,P273","GHS05,GHS09"
 025430,4-tert-Butylcyclohexylchlorformiat,Gefahr,"H412,H331,H314",,"P234,P273,P390,P406","GHS06,GHS05"
 025440,Methylsalicylat,Achtung,H302,,"P264,P270,P301+P312,P330,P501",GHS07
@@ -1586,7 +1586,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 028340,Benzophenon,Achtung,"H373,H412",,"P260,P273,P281,P308+P313,P391,P501",GHS08
 028350,Bortrifluoriddimethyletherat,Gefahr,"H260,H302,H332,H314,H372",EUH014,"P260,P280,P301+P330+P331,P304+P340,P305+P351+P338,P310,P402+P404","GHS02,GHS05,GHS07,GHS08"
 028400,Acrylsäurechlorid,Gefahr,"H225,H290,H330,H302+H312,H314,H400",EUH014,"P210,P280,P273,P301+P330+P331,P302+P352,P304+P340,P305+P351+P338,P309+P310","GHS02,GHS06,GHS05,GHS09"
-028410,Adiponitril,Gefahr,"H301,H332,H315,H319",,"P302+P352,P305+P351+P338,P309+P310","GHS06,GHS07"
+028410,Adiponitril,Gefahr,"H301,H332",,"P261,P301+P330+P331,P310",GHS06
 028430,3-Ethoxypropionitril,Achtung,"H315,H319,H335",,"P261,P280,P305+P351+P338,P304+P340,P405,P501",GHS07
 028440,3-Ethoxypropylamin,Gefahr,"H226,H302,H314",,"P280,P305+P351+P338,P310","GHS02,GHS05,GHS07"
 028450,"2,2-Dimethyl-4-hydroxymethyl-1,3-dioxolan",,,,,
@@ -1705,7 +1705,6 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 030310,3-tert-Butylphenol,Gefahr,H314,,"P280,P305+P351+P338,P310",GHS05
 030320,6-tert-Butyl-m-kresol,Achtung,"H302,H315,H319,H335",,"P261,P305+P351+P338",GHS07
 030340,"1,1-Dichlorethan",Gefahr,"H225,H302,H319,H335,H412",,"P210,P261,P273,P305+P351+P338","GHS02,GHS07"
-030370,N-Methylpyrrolidin,Gefahr,"H225,H301,H314,H332",,"P210,P223,P280,P301+P330+P331,P305+P351+P338,P309+P310,P403+P235","GHS02,GHS06,GHS05"
 030380,"Natrium-2,2-dichlorpropionat",Gefahr,"H315,H318,H412",,,GHS05
 030410,N'-(4-Bromphenyl)-N-methoxy-N-methylharnstoff,Achtung,"H302,H319,H332",,P305+P351+P338,GHS07
 030420,Butenon,Gefahr,"H225,H300+H310+H330,H314,H317,H410",,"P210,P260,P264,P273,P280,P284","GHS02,GHS06,GHS05,GHS09"
@@ -1737,7 +1736,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 030860,Isopentan,Gefahr,"H224,H304,H336,H411",EUH066,,"GHS02,GHS07,GHS08,GHS09"
 030870,Butyllithium,Gefahr,"H225,H250,H260,H304,H314,H336,H361f,H373,H411",EUH014,"P201,P231+P232,P280,P305+P351+P338,P370+P378,P422","GHS02,GHS05,GHS07,GHS08,GHS09"
 030890,Tetranatriumethylendiamintetraacetat,Gefahr,"H302,H318,H332",,,"GHS05,GHS07"
-030900,Dibrommethan,Achtung,"H332,H412",,"P261,P271,P273,P312,P304+P340",GHS07
+030900,Dibrommethan,Achtung,"H332,H412",,P273,GHS07
 030930,Trichlorfluormethan,Achtung,"H312,H420",,"P273,P280,P501",GHS07
 030940,Diethylentriaminepentakis(methylenphosphonsäure),Gefahr,"H290,H315,H318",,,GHS05
 030950,Methylcyclohexan,Gefahr,"H225,H304,H315,H336,H411",,"P210,P273,P280,P301+P310,P331,P403+P233","GHS02,GHS07,GHS08,GHS09"
@@ -1861,7 +1860,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 033100,"3-Hydroxy-2,2-dimethylpropyl-3-hydroxy-2,2-dimethylpropionat",Gefahr,H318,,"P280,P305+P351+P338,P310",GHS05
 033140,Tetranatrium-(1-hydroxyethyliden)biphosphonat,Achtung,"H302,H319",,,GHS07
 033160,Heptansäure,Gefahr,H314,,"P280,P301+P330+P331,P305+P351+P338,P309+P310",GHS05
-033170,2-Ethylhexansäure,Gefahr,"H312,H318,H361d",,"P280,P305+P351+P338","GHS05,GHS07,GHS08"
+033170,2-Ethylhexansäure,Achtung,H361d,,P280,GHS08
 033190,Methyl-2-methylbenzoat,Achtung,"H315,H319,H335",,"P261,P305+P351+P338",GHS07
 033200,Octansäure,Gefahr,"H314,H412",,,GHS05
 033240,Glycidyltrimethylammoniumchlorid,Gefahr,"H302+H312,H317,H318,H341,H350,H361f,H373,H412",,"P201,P273,P280,P305+P351+P338,P308+P313","GHS08,GHS05,GHS07"
@@ -2237,7 +2236,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 039590,Allylmethacrylat,Gefahr,"H226,H331,H302,H312,H400",,"P210,P273,P302+P352,P309+P310","GHS02,GHS06,GHS09"
 039600,Isobutyltrichlorsilan,Gefahr,"H226,H314",EUH014,"P301+P330+P331,P280,P305+P351+P338,P402+P404,P210","GHS02,GHS05"
 039610,Trichlor(3-chlorpropyl)silan,Gefahr,H314,EUH014,"P280,P301+P330+P331,P305+P351+P338,P309+P310",GHS05
-039620,Propyltrichlorsilan,Gefahr,"H226,H314",EUH014,"P280,P305+P351+P338,P310","GHS02,GHS05"
+039620,Propyltrichlorsilan,Gefahr,"H226,H302,H331,H314","EUH014,EUH071","P260,P280,P301+P330+P331,P303+P361+P353,P310,P405","GHS02,GHS06,GHS05"
 039630,Vinyltrimethoxysilan,Gefahr,"H225,H332",,"P210,P262,P403+P235","GHS02,GHS07"
 039640,Triethoxyvinylsilan,Achtung,"H226,H319,H335",,"P210,P262,P304+P340,P305+P351+P338","GHS02,GHS07"
 039650,Vinyltris(beta-methoxyethoxy)silan,Achtung,"H312,H319,H361f",,"P280,P305+P351+P338","GHS08,GHS07"
@@ -2338,7 +2337,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 041470,Strychninsalze,Gefahr,"H330,H300,H410",,,"GHS06,GHS09"
 041480,Sulfotep,Gefahr,"H300,H310,H410",,"P264,P273,P280,P301+P310,P302+P350,P310","GHS06,GHS09"
 041510,"2-Chlor-1,3,5-trinitrobenzol",Gefahr,"H201,H300,H310,H330,H410",,"P260,P264,P273,P280,P284,P301+P310","GHS01,GHS06,GHS09"
-041520,Trimellitsäureanhydrid,Gefahr,"H317,H318,H334,H335",,"P261,P280,P305+P351+P338,P342+P311","GHS08,GHS07,GHS05"
+041520,Trimellitsäureanhydrid,Gefahr,"H317,H318,H334,H335",,"P261,P280,P305+P351+P338,P342+P311","GHS05,GHS07,GHS08"
 041530,Trimethylphosphat,Gefahr,"H302,H315,H319,H340,H351",,"P201,P280,P302+P352,P305+P351+P338,P309+P310","GHS08,GHS07"
 041540,"2,4,7-Trinitrofluoren-9-on",,,,,
 041550,"Pikrinsäure, trocken oder mit weniger als 30 % Wasser angefeuchtet",Gefahr,"H201,H301,H311,H331",,,"GHS01,GHS06"
@@ -2351,7 +2350,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 070070,tert-Butylamin,Gefahr,"H225,H302,H331,H314,H412",,"P210,P280,P303+P361+P353,P304+P340+P310,P305+P351+P338,P403+P233","GHS02,GHS06,GHS05"
 070120,Methylethylketonperoxid,Gefahr,"H242,H302,H314",,,"GHS02,GHS05,GHS07"
 070130,Methylcyanacetat,,,,,
-070150,"1,2-Epoxypentan",Gefahr,H225,,P210,GHS02
+070150,"1,2-Epoxypentan",Gefahr,"H225,H302+H312+H332,H319,H351",,"P210,P280,P305+P351+P338","GHS02,GHS08,GHS07"
 070180,Propylnitrit,,,,,
 070200,4-(4-Hydroxyphenyl)-2-butanon,Achtung,H302,,P301+P312,GHS07
 070210,Citraconsäure,Achtung,H302,,,GHS07
@@ -2438,7 +2437,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 100237,Galaktose,,,,,
 100239,Folsäure,,,,,
 100260,"1,5-Diphenyl-3-thiocarbazon",Achtung,"H315,H319,H335",,"P261,P305+P351+P338",GHS07
-100264,Tyrosin,Achtung,"H315,H319,H335",,"P261,P305+P351+P338",GHS07
+100264,Tyrosin,,,,,
 100299,Methylthioniniumchlorid,Achtung,H302,,P301+P312,GHS07
 100308,Calciumdinatriumethylendiamintetraacetat,,,,,
 100321,Lactose,,,,,
@@ -2631,7 +2630,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 102653,Piperazindihydrochlorid,Gefahr,"H361fd,H319,H315,H334,H317,H412",,,GHS08
 102661,Natriumdecylsulfat,Gefahr,"H302,H315,H318,H412",,"P273,P280,P302+P352,P305+P351+P338,P310,P362","GHS05,GHS07"
 102662,Piperazinadipat,,,,,
-102663,Isopropylpalmitat,Achtung,"H315,H319",,P305+P351+P338,GHS07
+102663,Isopropylpalmitat,,,,,
 102671,1-Decanthiol,Achtung,"H315,H319,H335",,"P261,P305+P351+P338",GHS07
 102677,Bis(2-(2-butoxyethoxy)ethoxy)methan,,,,,
 102683,Phenolrot,,,,,
@@ -2666,7 +2665,6 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 103653,p-Fluorbenzotrichlorid,Gefahr,"H302,H314,H412",,"P260,P303+P361+P353,P305+P351+P338,P301+P330+P331,P405,P501","GHS05,GHS07"
 103688,Natriumpalmitat,Achtung,H319,,P305+P351+P338,GHS07
 103804,Metronidazol,Achtung,H351,,P281,GHS08
-103837,Azathioprin,Gefahr,"H302,H315,H319,H335,H350",,"P201,P261,P305+P351+P338,P308+P313","GHS08,GHS07"
 103897,p-Fluorbenzalchlorid,Gefahr,"H302,H312,H332,H314,H335",,,"GHS05,GHS07"
 103943,Trifluor(tetrahydrofuran)bor,Gefahr,"H302,H332,H314,H372",,"P260,P280,P301+P330+P331,P301+P312,P304+P340,P305+P351+P338","GHS05,GHS07,GHS08"
 103955,(-)-Borneol,Achtung,H228,,P210,GHS02
@@ -2885,7 +2883,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 109743,Carmin,,,,,
 109755,Lackmus,,,,,
 109758,Amphotericin B,Achtung,"H315,H319,H335",,"P261,P305+P351+P338",GHS07
-109765,Orcein,Achtung,H302,,,GHS07
+109765,Orcein,Achtung,H302,,"P280,P301+P312",GHS07
 109768,Tannin,,H412,,P273,
 109786,Neomycinsulfat,Gefahr,"H317,H334",,"P261,P280,P342+P311",GHS08
 109899,Tetracyclohexylstannan,Achtung,"H302,H312,H332,H410",,"P273,P280,P501","GHS07,GHS09"
@@ -3412,13 +3410,12 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 125450,Ammoniumtrivanadiumoctaoxid,Gefahr,"H301,H318,H331,H335,H361,H372,H411",,"P271,P273,P280,P304+P340,P305+P351+P338,P312","GHS05,GHS06,GHS08,GHS09"
 125490,"Aluminium, 4,5-Dihydro-5-oxo-1-(4-sulfophenyl)-4-((4-sulfophenyl)azo)-1H-pyrazol-3-carbonsäure Komplex",,,,,
 125525,"Ferrat(4-), Hexakis(cyano-C)-, methylierte 4-((4-Aminophenyl)(4-imino-2,5-cyclohexadien-1-yliden)methyl)benzolaminkupfer(2+)salze",,H411,,"P273,P391,P501",GHS09
-125526,"Ferrat(4-), Hexakis(cyano-C)-, Ethyl 2-(6-(Ethylamino)-3-(ethylimino)-2,7-dimethyl-3H-xanthen-9-yl)benzoatkupfer(2+)salze",Achtung,H410,,,GHS09
+125526,"Ethyl-2-(6-(ethylamino)-3-(ethylimino)-2,7-dimethyl-3H-xanthen-9-yl)benzoatkupfer(2+)hexacyanoferrat",Achtung,H410,,,GHS09
 125531,Kupferchlorophthalocyanin,,,,,
 125563,Diammoniumtrisulfid,Gefahr,"H314,H400",EUH031,,"GHS05,GHS09"
 125576,Cyclohexanonperoxid,Gefahr,"H240,H314,H302",,,"GHS01,GHS05,GHS07"
 125589,"Tetrabordinatriumheptaoxid, Hydrat",Gefahr,H360FD,,,GHS08
-125665,"Natriumhydrogen(N,N-bis(2-(bis(carboxymethyl)amino)ethyl)glycinato(5-))ferrat(2-)",,,,,
-125666,Dinatriumhydrogenbis(3-hydroxy-4-((2-hydroxy-1-naphthyl)azo)naphthalin-1-sulfonato(3-))chromat(3-),Achtung,"H319,H317,H412",,,GHS07
+125666,Dinatriumhydrogenbis(3-hydroxy-4-((2-hydroxy-1-naphthyl)azo)naphthalin-1-sulfonato(3-))chromat(3-),Achtung,"H317,H319,H412",,,GHS07
 125683,Eisen(III)-chloridsulfat,Gefahr,"H290,H302,H315,H318",,"P280,P301+P312,P302+P352,P305+P351+P338,P310,P501","GHS05,GHS07"
 125684,Tetraammoniumoctamolybdat,,,,,
 125718,Trihydrogenhydroxy-bis(orthosilikato(4-))trinickelat(3-),Gefahr,"H350i,H372,H317,H410",,,"GHS08,GHS07,GHS09"
@@ -3732,7 +3729,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 139302,"Butan-2-on-O,O',O'',O'''-silanetetrayltetraoxim",Gefahr,"H315,H317,H318",,,"GHS05,GHS07"
 139318,Acetochlor,Achtung,"H332,H315,H317,H335,H410",,"P261,P273,P280,P501","GHS07,GHS09"
 139401,"Trimethoxy(2,4,4-trimethylpentyl)silan",Achtung,H226,,"P210,P233,P243,P501",GHS02
-139425,N-Ethyl-N-[2-[1-(2-methylpropoxy)ethoxy]ethyl]-4-(phenylazo)anilin,Achtung,"H302,H413",,,GHS07
+139425,N-Ethyl-N-[2-[1-(2-methylpropoxy)ethoxy]ethyl]-4-(phenylazo)anilin,Achtung,"H302,H317,H373,H413",,"P260,P280,P363,P273","GHS08,GHS07"
 139432,"O,O-tert-Butyl-O-(2-ethylhexyl)peroxycarbonat",Gefahr,"H242,H410",,"P210,P220,P234,P273,P280,P403+P235,P501","GHS02,GHS09"
 139441,Kaliumthioglykolat,Achtung,"H302,H317",,"P280,P301+P312",GHS07
 139518,Prothiofos,Gefahr,"H302,H330,H410",,"P260,P273,P284,P310,P501","GHS06,GHS09"
@@ -3838,7 +3835,6 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 145017,Acemetacin,Gefahr,"H300,H310,H330",,"P260,P264,P280,P284,P302+P350,P310",GHS06
 145076,Bis(2-propylheptyl)phthalat,,,,,
 145082,Lithiummagnesiumnatriumsilikat,,,,,
-145401,"Natriumhydrogen-3-amino-5-naphthol-2,7-disulfonat",Achtung,H319,,,GHS07
 145426,Hydroxylamin-4-methylbenzolsulfonat,Gefahr,"H201,H351,H312,H302,H373,H319,H315,H317,H400",,,"GHS01,GHS08,GHS07,GHS09"
 145449,5(oder 6)-Carboxy-4-hexyl-2-cyclohexen-1-octansäure,Achtung,"H319,H412",,,GHS07
 145453,Calciumisononanoat,Achtung,"H302,H319",,"P264,P270,P280,P301+P312,P305+P351+P338,P330,P337+P313,P501",GHS07
@@ -4099,7 +4095,6 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 490076,Methylmethansulfonat,Gefahr,"H301,H340,H350,H361f",,"P201,P280,P309+P310","GHS06,GHS08"
 490077,Strychninnitrat,Gefahr,"H330,H300,H410",,,"GHS06,GHS09"
 490078,"2,3-Dinitrophenol",Gefahr,"H301,H311,H331,H373,H411",,"P261,P273,P280,P301+P310,P311","GHS06,GHS08,GHS09"
-490081,1-Methyl-3-nitro-1-nitrosoguanidin,Gefahr,"H350,H332,H319,H315,H411",,,"GHS08,GHS07,GHS09"
 490082,"1,1-Dichlor-2,2-bis(4-chlorphenyl)ethan",Gefahr,"H301,H312,H351,H410",,"P273,P280,P301+P310,P501","GHS06,GHS08,GHS09"
 490083,"2,2-Bis(4-chlorphenyl)-1,1-dichlorethen",Achtung,"H302,H351,H410",,"P273,P281,P501","GHS07,GHS08,GHS09"
 490084,"1,1-Dichlor-2,2-bis(4-ethylphenyl)ethan",Achtung,H410,,"P273,P501",GHS09
@@ -4285,7 +4280,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 490338,Prometon,Achtung,"H302,H315,H319,H335",,"P261,P305+P351+P338",GHS07
 490339,Ethylcyclohexan,Gefahr,"H225,H304",,"P210,P301+P310,P331","GHS02,GHS08"
 490340,Bromoxyniloctanoat,Gefahr,"H302+H312,H331,H317,H361d,H410",,"P261,P273,P280,P311,P501","GHS06,GHS08,GHS09"
-490341,Benzyl violet 4B,Achtung,H351,,,GHS08
+490341,Benzyl violet 4B,Achtung,H351,,P281,GHS08
 490343,Benfluralin,Achtung,H410,,"P273,P501",GHS09
 490345,Trietazin,Achtung,"H302,H400",,"P273,P301+P312,P330,P391","GHS07,GHS09"
 490347,"4-Amino-3,5,6-trichlorpyridin-2-carbonsäure",Achtung,H319,,P305+P351+P338,GHS07
@@ -4697,7 +4692,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 491381,Bisphenol F,Achtung,"H315,H319,H335",,"P261,P305+P351+P338",GHS07
 491382,4-Hydroxybutylacrylat,Gefahr,"H302,H315,H318,H317",,,"GHS05,GHS07"
 491385,Natrium-2-propen-1-sulfonat,,,,,
-491389,Reactive Blue 19,,,,,
+491389,"2-(3-(4-Amino-9,10-dihydro-3-sulfo-9,10-dioxoanthracen-4-yl)aminobenzolsulfonyl)vinyl)dinatriumsulfat",,,,,
 491393,Dinatrium-6-hydroxy-5-((4-sulfonatophenyl)azo)naphthalin-2-sulfonat,,,,,
 491397,Decyloxiran,,,,,
 491398,"2,9-Bis(4-(phenylazo)phenyl)anthra(2,1,9-def:6,5,10-d'e'f')diisochinolin-1,3,8,10(2H,9H)-tetron",,,,,
@@ -4774,6 +4769,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 491691,Metazachlor,Achtung,"H317,H351,H410",,,"GHS07,GHS08,GHS09"
 491697,"Fettsäuren, C16-18- und C18-ungesättigt, Methylester",,,,,
 491700,"Tetranatrium-4,4'-bis((4-(bis(2-hydroxypropyl)amino)-6-((4-sulfonatophenyl)amino)-1,3,5-triazin-2-yl)amino)stilben-2,2'-disulfonat",,,,,
+491734,"Diphenylamin, octyliert",,,,,
 491745,"Diethylmethylbenzoldiamin, Isomere",Achtung,"H302,H312,H373,H319,H410",,"P280,P301+P312,P305+P351+P338,P260,P273,P302+P352","GHS07,GHS08,GHS09"
 491775,"Kaliumnatrium-4,4'-bis[6-anilino-4-[bis(2-hydroxyethyl)amino]-1,3,5-triazin-2-yl]amino)stilben-2,2'-disulfonat",,,,,
 491783,Montansäureester,,,,,
@@ -5380,7 +5376,6 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 494652,Benzylbromacetat,Achtung,"H315,H319,H335",,"P261,P305+P351+P338",GHS07
 494653,Methyl-2-brompropionat,Achtung,"H226,H315,H319,H335",,"P210,P302+P352,P304+P340,P305+P351+P338","GHS02,GHS07"
 494655,Butylcyanacetat,,,,,
-494656,"Natriumhydrogen-4-amino-5-hydroxynaphthalin-2,7-disulfonat",,,,,
 494681,5-Chlor-2-pentanon,Achtung,H302,,,GHS07
 494710,"cis-2-Buten-1,4-diol",Achtung,H302,,,GHS07
 494711,Crotylalkohol,Achtung,"H226,H302+H312",,P280,"GHS02,GHS07"
@@ -5799,7 +5794,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 510050,Atropin,Gefahr,H300+H330,,"P260,P264,P284,P301+P310,P310",GHS06
 510051,Atropinsulfat,Gefahr,"H330,H300",,,GHS06
 510052,Azamethiphos,Achtung,"H302,H319",,P305+P351+P338,GHS07
-510053,Azocyclotin,Gefahr,"H301,H330,H315,H318,H335,H410",,"P260,P273,P280,P284,P301+P310,P305+P351+P338","GHS06,GHS05,GHS09"
+510053,Azocyclotin,Gefahr,"H301,H315,H318,H330,H335,H410",,"P260,P273,P280,P284,P301+P310,P305+P351+P338","GHS06,GHS05,GHS09"
 510054,Azothoat,Achtung,"H332,H302",,,GHS07
 510055,Azoxybenzol,Achtung,"H302,H312,H332",,P302+P352,GHS07
 510056,Barban,Achtung,"H302,H317,H410",,"P273,P280,P501","GHS07,GHS09"
@@ -6264,7 +6259,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 510620,3-Methyl-1-buten,Gefahr,"H224,H304,H315,H319,H335",,"P210,P261,P301+P310,P305+P351+P338,P331","GHS02,GHS08,GHS07"
 510621,Isopropylbutyrat,Achtung,H226,,P210,GHS02
 510623,m-Isopropylcumylhydroperoxid,,,,,
-510624,Isopropylisobutyrat,,,,,
+510624,Isopropylisobutyrat,Gefahr,H225,,,GHS02
 510625,Isopropylisocyanat,Gefahr,"H225,H302,H330,H315,H319,H334,H335",EUH014,"P210,P280,P310,P305+P351+P338","GHS02,GHS06,GHS08"
 510627,Isopropylnitrat,Gefahr,H225,,P210,GHS02
 510628,Isopropylpropionat,Gefahr,H225,,"P210,P240,P280,P303+P361+P353,P403+P235,P501",GHS02
@@ -6320,7 +6315,7 @@ id,name,signal,h_codes,euh_codes,p_codes,symbols
 510740,(Methylsulfonyl)ethylen,Gefahr,"H310,H302,H319",,"P280,P302+P352,P305+P351+P338,P309+P310",GHS06
 510742,Tetrabutylzinn,Achtung,"H302,H410",,"P262,P260,P273","GHS07,GHS09"
 510743,Paraoxon,Gefahr,"H300,H310,H330,H400",,"P260,P264,P273,P280,P284,P302+P350","GHS06,GHS09"
-510744,Methylisobutylketonperoxid,,,,,
+510744,Methylisobutylketonperoxid,Gefahr,"H242,H302,H315,H317,H319,H331",,,"GHS02,GHS06"
 510745,Phosfolan,Gefahr,H300+H310,,"P264,P280,P301+P310,P302+P350,P310",GHS06
 510746,Thiabendazol,Achtung,H410,,,GHS09
 510747,"Tolylfluanid (Gehalt an Partikeln mit einem aerodynamischen Durchmesser unter 50 µm >= 0,1 Gew.-%)",Gefahr,"H330,H315,H317,H319,H335,H372,H400",,"P260,P273,P280,P284,P305+P351+P338,P310","GHS06,GHS08,GHS09"
